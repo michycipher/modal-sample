@@ -46,7 +46,7 @@ export default function Home() {
           </p>
 
           <p className="py-5 text-slate-500">
-          Each modal is triggered by a corresponding button, and the visibility of the modals is managed using React's `useState` hook. The `Modal` component handles the display logic, ensuring the modals are centered and styled appropriately with Tailwind CSS.
+          Each modal is triggered by a corresponding button, and the visibility of the modals is managed using React&#39;s `useState` hook. The `Modal` component handles the display logic, ensuring the modals are centered and styled appropriately with Tailwind CSS.
 
           This sample provides a versatile foundation for integrating modal functionality into a Next.js application, offering both visual engagement and interactive elements.
 
@@ -87,7 +87,8 @@ export default function Home() {
       <h3 className="mb-4 text-xl font-medium text-gray-900">Sign in </h3>
       <form className="space-y-6">
         <div>
-          <label></label>
+          <label>First Name</label>
+          {/* <input> </input> */}
         </div>
       </form>
     </div>
